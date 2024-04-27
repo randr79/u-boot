@@ -25,9 +25,9 @@ remote_add_and_fetch() {
     then
         echo "Warning: Script automatically adds new git remote via:"
         echo "    git remote add devicetree-rebasing \\"
-        echo "        https://git.kernel.org/pub/scm/linux/kernel/git/devicetree/devicetree-rebasing.git"
+        echo "        https://github.com/randr79/linux-devicetree.git"
         git remote add devicetree-rebasing \
-            https://git.kernel.org/pub/scm/linux/kernel/git/devicetree/devicetree-rebasing.git
+            https://github.com/randr79/linux-devicetree.git
     fi
     git fetch devicetree-rebasing master
 }
